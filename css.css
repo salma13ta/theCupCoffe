@@ -1,0 +1,409 @@
+*{
+    color: aliceblue;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}    
+.start {
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Playfair Display', serif;
+    padding: 10px;
+    margin: 1px ;
+    list-style: none;
+    background-color: black;
+
+ }
+.start a{
+    text-decoration: none;
+}
+ .start ul li{
+    display: inline-block;
+    padding: 17px;
+} 
+ .style {
+    font-size: 14px;
+ }
+ nav ul{
+    display: flex;
+    justify-content: space-between;
+ }
+ .bold {
+    font-size: 18px;
+    font-weight: bold;
+    text-indent: 11px;
+ }
+ li:hover ,.foot li:hover{
+    border-bottom: solid #ffffff ;
+    opacity: 0.6;
+ }
+body{
+    background-image: url("hand-pouring-out-fresh-roasted-coffee-beans-from-spoon-isolated-black.jpg");
+    background-size:cover;
+}
+h1 {
+    padding: 176px 14px 11px 90px;
+    font-size: 45px;
+    font-weight: bold;
+}
+.line{
+    font-size: 17px;
+    padding: 0px 224px 21px 57px ;
+    color :#be9292 ; 
+}
+p {
+    padding: 1px 146px 26px 44px;
+    font-size: 18px;
+    text-indent: 26px;
+} 
+.title2 {
+    text-align: center;
+    padding: 87px 0 36px 0 ;
+    font-size: 40px;
+}
+.kind {
+    text-align: center;
+    padding: 0px 73px 80px ;
+    font-size: 15px;
+}
+.img {
+    margin: auto;
+    display:flex;
+    justify-content: space-around;
+}
+.img a img{
+    width: 250px;
+    height: 250px;
+}
+.black { 
+    padding: 4px;
+    margin: 5px; 
+    border: 3px solid #563232;
+}
+.desc  {
+    text-align: right;
+    font-size: 22px;
+    text-decoration: underline;
+}
+.text {
+    text-align: center;
+    padding: 28px 0;
+}
+.coffeloge {
+    font-size: 38px;
+    text-align: center;
+
+}
+.foot {
+    font-size: 10px;
+    display: flex;
+    margin: 14px;
+    justify-content: space-evenly;
+}
+.foot a{
+    text-decoration: none;
+}
+.foot li{
+    display: inline-block;
+    margin: 30px -353px;
+
+}
+.dottom{
+    display: flex;
+  }
+ 
+ .tablink {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 56px 14px;
+  font-size: 27px;
+  width: 30%;
+  margin: auto;
+} 
+
+.login{
+  background: transparent;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  backdrop-filter: blur(20px);
+  align-items: center;
+  min-height: 100hv;
+  width: 420px;
+  margin: auto;
+  border-radius: 8px;
+  padding: 30px 40px;
+}
+.login .input-box{
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+  position: relative;
+}
+.input-box input{
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border: 2px solid ;
+  border-radius: 40px;
+  font-size: 16px;
+  padding: 20px 45px 20px 20px;
+  color: rgb(11, 25, 111);
+
+}
+.input-box input:hover{
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.input-box input::placeholder{
+  color: rgb(11, 25, 111, 0.122);
+  font-weight: bolder;
+}
+.input-box i{
+  position: absolute;
+  right:7px;
+  top: 35%;
+  color: rgb(5, 5, 58);
+  font-size: 20px;}
+.login .remember-forgot{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+.remember-forgot label input{
+  margin-right: 3px;
+  accent-color: rgb(5, 5, 58);;
+}
+.remember-forgot a{
+  color: white;
+  text-decoration: none;
+}
+.remember-forgot a:hover{
+  text-decoration: underline;
+}
+.login .btn{
+  width: 35%;
+  height: 25px;
+  margin: 0 35%;  
+  margin-right: -20px;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px black;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bolder;
+  color: rgb(11, 25, 111);
+}
+.login .register-link{
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px -72px 0;
+}
+.register-link p a{
+color: white;
+text-decoration: none;
+font-weight: 600;
+}
+.register-link p a:hover{
+  text-decoration: underline;
+}
+.signUp{
+  background: transparent;
+  border: 2px solid rgb(5, 5, 58);
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  backdrop-filter: blur(50px);
+  align-items: center;
+  min-height: 40vh;
+  width: 420px;
+  border-radius: 10px;
+  color: white;
+  padding: 20px 15px 35px;
+  margin: auto;
+}
+.signUp .input-box2{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+.input-box2 .input-field{
+  position: relative;
+  width: 50%;
+  margin: 13px 0;
+  height: 50px;
+}
+.input-box2 .input-field input{
+  width: 100;
+  height: 70%;
+  outline: none ;
+  font-size: 15px;
+  color: rgb(5, 5, 58);
+  border-radius: 40px;
+  
+}
+.input-box2 .input-field input:hover{
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+.input-box2 .input-field input::placeholder{
+  color: rgba(11, 24, 111, 0.122);
+  font-weight: bolder;
+}
+.input-box2 .input-field i{
+  position: absolute;
+  top: 20%;
+  color: rgb(5, 5, 58 , 0.2);
+  right: 30px;
+  font-size: 18px;
+}
+.signUp label{
+  font-size: 14.5px;
+  margin: 10px 0 23px;
+  display:inline-block;
+}
+.signUp label input{
+  accent-color: rgb(5, 5, 58);
+  margin-right: 5px;
+}
+.signUp .btn2{
+  width: 35%;
+  height: 25px;
+  margin-left: 125px;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px black;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bolder;
+  color: rgb(11, 25, 111);
+}
+button a{
+  text-decoration: none;
+  color: rgb(5, 5, 58);
+  font-weight:bold ;
+}
+.in-out{
+    padding:0px;
+    font-size: 45px;
+    font-weight: normal;
+    text-align: center;
+
+}
+    @media  screen and (max-width: 690px) {
+  .tablink {
+        padding: 56px 3px;
+        font-size: 22px;  
+    }
+  body {
+    padding: 50px 0 ;
+    margin: -28px;
+  }
+  .login{
+    width: 294px;
+    border-radius: 8px;
+    padding: 5px 17px;
+  }
+  .signUp{
+    width: 341px;
+    border-radius: 10px;
+    color: white;
+    padding: 0px 4px 18px;
+    margin: auto;
+  }
+  .input-box2 .input-field {
+    width: 205%;
+    margin: auto;
+    height: 55px;
+}
+.input-box2 .input-field input {
+  width: 306px;
+}
+.foot li {
+    display: inline-block;
+    margin: 30px -172px;
+}
+
+} 
+@media  screen and ( max-width: 1326px) {
+  .foot li {
+    display: inline-block;
+    margin: 30px -172px;
+}
+} 
+
+@media  screen and (max-width: 710px) {
+    .start ul li{
+        padding: 10px;
+    } 
+     .style {
+        font-size: 12px;
+     }
+     .bold {
+        font-size: 14px;
+        text-indent: 5px;
+     }
+     h1 {
+        padding: 102px 8px 0px 72px;
+        font-size: 41px;
+     }
+     p {
+        padding: 1px 68px 26px 64px;
+        line-height: 28PX;
+     }
+     .title2 {
+        font-size: 32px;
+    }
+    .kind {
+        padding: 0px 39px 80px;
+        font-size: 12px;
+    }
+    .img {
+        flex-direction: column;
+        align-items: center;  
+    }
+    .black{
+        margin: 8px;  
+    }
+    .foot li {
+        margin: 30px -94px;
+    }
+}
+
+
+
+@media  screen and (max-width: 480px) {
+    .start ul li{
+        margin: 0 9px;
+        } 
+     .non {
+        display: none;    
+    }
+     .bold {
+        font-size: 15px;
+        text-indent: 5px;
+     }
+     h1 {
+        padding: 98px 8px 0px 43px;
+        font-size: 34px;
+     }
+     .line {
+        font-size: 12px;
+        padding: 0px 222px 21px 28px
+     }
+     p {
+        padding: 1px 68px 26px 46px;
+        line-height: 28PX;
+     }
+     .title2 {
+        font-size: 28px;
+    }
+    .kind {
+        font-size: 11px;
+    }
+    .foot li {
+        margin: 30px -38px;
+    }
+
+
+
+}

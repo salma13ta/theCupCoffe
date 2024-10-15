@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>COFFEE</title>
+        <link rel="stylesheet" href="css.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Playfair+Display&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <header class="start">
+        <nav>
+            <ul class="title">
+                <div>
+                    <li class="bold"><a href="About.html">About</a></li>
+                    <li class="bold"><a href="Explane.html">Explane</a></li>
+                    <li class="bold"><a href="News.html">News</a></li>
+                    <li class="bold"><a href="Contant.html">Contant</a></li>
+                </div>
+                <div class="non">
+                    <li class="style"><a href="Login.html">Login</a></li>
+                    <li>|</li>
+                    <li class="style"><a href="Registe.html">Registe</a></li>  
+                </div>
+                
+            </ul>    
+        </nav>
+    </header>
+    <body>
+        <h1 class="title">
+            My cup of coffee is my happiness        
+        </h1>
+        <ul class="line"> ___________________________________________</ul>
+        <p>
+            Improves mood, reduces feelings of depression, and reduces the risk of some types of cancer, including liver cancer, colorectal cancer, kidney cancer, colon cancer, and breast cancer before menopause. Reducing the risk of strokes, protecting against heart disease, and reducing the risk of high blood pressure if consumed in moderation.
+        </p>
+        <h1 class="title2">
+            Types of coffee. _______        </h1>
+        <p class="kind">
+            Espresso (cappuccino to latte), Turkish coffee, cappuccino, black coffee, latte, flat white, macchiato and mock..        
+        </p>
+        <!-- image -->
+        <div class="img">
+            <a class="black">
+            <img src="nass.jpg" alt=" black coffee" >
+            <div class="desc">Black Coffee .</div>
+        </a>
+        <a class="black">
+            <img src="cup-coffe.jpg" alt="Coffe" >
+            <div class="desc">Coffe . </div>
+
+        </a>
+        <a class="black">
+            <img src="coffe-ji.jpg" alt="macchiato" >
+            <div class="desc">Milk Coffe . </div>
+        </a>
+        </div>
+    </body>
+    <footer>
+        <div class="text">Try it and stay with us<i style="font-size:24px" class="fa">&#xf0f4;</i></div>
+            <br><br>
+        <div>
+             <!-- LogIn and Registeration -->
+    <div class="dottom">
+        <button class="tablink" onclick="openPage('login', this, 'transparent')" id="defaultOpen">log In</button>
+        <button class="tablink" onclick="openPage('signUp', this, 'transparent')" >sign Up</button>
+    </div>
+    <div id="login" class="tabcontent login">
+        <form action="">
+            <h1 class="in-out"> LogIn</h1>
+            <div class="input-box">
+            <input type="text" placeholder="Username" required>
+            <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" required>
+                <i class='bx bxs-lock' ></i>
+                </div>
+                <div class="remember-forgot">
+                <label>
+                <input type="checkbox"> Remember me
+                </label>
+                <a href="#">Forgot password?</a>
+                </div>
+                <button type="submit" class="btn" ><a href="project/index.html">LogIn</a></button>
+                <div class="register-link">
+                <p>Don't have an account? <a href="#">Register</a></p>
+                </div>
+        </form>
+    </div>
+
+    <div id="signUp" class="tabcontent signUp">
+        <form action="">
+            <h1 class="in-out">Registeration</h1>
+            <div class="input-box2">
+            <div class="input-field">
+    
+                <input type="text" placeholder="Full Name" required>
+                <i class='bx bxs-user'></i>
+    
+            </div>
+            <div class="input-field">
+    
+                <input type="text" placeholder="Username" required>
+                <i class='bx bxs-user'></i>
+    
+            </div>
+            <div class="input-field">
+    
+                <input type="email" placeholder="Email" required>
+                <i class='bx bxs-envelope'></i>
+    
+            </div>
+            <div class="input-field">
+    
+                <input type="number" placeholder="Phone Number" required>
+                <i class='bx bxs-phone'></i>
+    
+            </div>
+            <div class="input-field">
+    
+                <input type="password" placeholder="Password" required>
+                <i class='bx bxs-lock'></i>
+    
+            </div>
+            <div class="input-field">
+    
+                <input type="password" placeholder="Confirm Password" required>
+                <i class='bx bxs-lock'></i>
+    
+            </div>
+            </div>
+            <label><input type="checkbox">I hereby declare that the above information provided is true and correct</label>
+            <button type="submit" class="btn2"><a href="project/index.html">Registeration</a></button>
+        </form>
+    </div>
+    
+        </div>
+        <br><br><br><br>
+        <div  class="coffeloge"> &#127958;</div>
+        <div class=" foot">
+            <li> &#169; 2024 Salma Tarek Mahmoud </li>
+            <li>|</li>
+            <li class="foo"><a href="About.html">About</a></li>
+            <li class="foo"><a href="Explane.html">Explane</a></li>
+            <li class="foo"><a href="News.html">News</a></li>
+            <li class="foo" id="ee"><a href="Contant.html">Contant</a></li>
+        </div>
+        
+    </footer>
+
+
+    <script src="js.js"> </script>
+</html>
